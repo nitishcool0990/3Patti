@@ -1,0 +1,21 @@
+#MyEclipse Hibernate Properties
+#Sat Nov 12 12:50:20 IST 2016
+genBasicCompId=false
+sessionFactoryName=Gt.HibernateMapping.HibernateSessionFactory
+profile=
+daoSFId=
+jndiPath=
+detectM2M=false
+reStrategyClass=
+detectO2O=false
+springDaoFile=
+useJavaTypes=true
+keyGenerator=
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=
+genAnnotations=false
+reSettingsFile=
+configFile=/GameDB/src/hibernate.cfg.xml
+createConfigFile=true
+baseDaoClass=Gt.HibernateMapping.BaseHibernateDAO

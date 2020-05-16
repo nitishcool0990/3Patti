@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="HibernateMapping.GtGameLogPlayerJoined" table="gt_game_log_player_joined" catalog="3patti_database">
+        <id name="id" type="java.lang.Long">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        
+        <property name="gameId" type="java.lang.Long">
+            <column name="game_id" not-null="true" />
+        </property>
+        
+        <property name="playerId" type="java.lang.Long">
+            <column name="player_id" not-null="true" />
+        </property>
+        
+         <property name="seatId" type="java.lang.Long">
+            <column name="seat_id" not-null="true" />
+        </property>
+        
+         <property name="tableGameId" type="java.lang.Long">
+            <column name="table_game_id" not-null="true" />
+        </property>
+        
+         <property name="gameInitialChips" type="java.lang.Double">
+            <column name="game_initial_chips" not-null="true" />
+        </property>
+        
+        
+       
+    </class>
+</hibernate-mapping>

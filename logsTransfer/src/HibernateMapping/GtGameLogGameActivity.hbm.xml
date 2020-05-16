@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="HibernateMapping.GtGameLogGameActivity" table="gt_game_log_game_activity" catalog="3patti_database">
+        <id name="id" type="java.lang.Long">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="tableGameId" type="java.lang.Long">
+            <column name="table_game_id" length="11" not-null="true" />
+        </property>
+        <property name="gameId" type="java.lang.Long">
+            <column name="game_id" not-null="true" />
+        </property>
+        
+        <property name="playerAction" type="java.lang.String">
+            <column name="player_action" />
+        </property>
+        
+        <property name="playerId" type="java.lang.Long">
+            <column name="player_id" not-null="true" />
+        </property>
+        
+        <property name="handCards" type="java.lang.String">
+            <column name="hand_cards"  />
+        </property>
+        
+        <property name="status" type="java.lang.String">
+            <column name="status" not-null="true" />
+        </property>
+        
+        <property name="chipsLeft" type="java.lang.Double">
+            <column name="chips_left" not-null="true" />
+        </property>
+        
+        <property name="systemActions" type="java.lang.String">
+            <column name="system_actions" />
+        </property>
+        
+        <property name="playerActionAmount" type="java.lang.Long">
+            <column name="player_action_amount"  />
+        </property>
+        
+        <property name="potAmount" type="java.lang.Double">
+            <column name="pot_amount"  />
+        </property>
+        
+        <property name="actionTime" type="java.lang.String">
+            <column name="action_time"  />
+        </property>
+        
+        <property name="remark" type="java.lang.String">
+            <column name="remark"  />
+        </property>
+        
+        <property name="rakePercent" type="java.lang.Integer">
+            <column name="rake_percent"  />
+        </property>
+       
+    </class>
+</hibernate-mapping>

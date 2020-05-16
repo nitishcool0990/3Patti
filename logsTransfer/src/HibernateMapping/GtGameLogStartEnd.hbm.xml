@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="HibernateMapping.GtGameLogStartEnd" table="gt_game_log_start_end" catalog="3patti_database">
+        <id name="id" type="java.lang.Long">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="tableId" type="java.lang.Long">
+            <column name="table_id" length="11" not-null="true" />
+        </property>
+        
+        <property name="gameId" type="java.lang.Long">
+            <column name="game_id" not-null="true" />
+        </property>
+        
+        <property name="noOfActivePlayers" type="java.lang.Integer">
+            <column name="number_of_active_players" not-null="true" />
+        </property>
+        
+        <property name="chipType" type="java.lang.String">
+            <column name="chip_type" not-null="true" />
+        </property>
+        
+        <property name="gameVariant" type="java.lang.String">
+            <column name="game_variant" not-null="true" />
+        </property>
+        
+        <property name="mixVariant" type="java.lang.String">
+            <column name="mix_variant" not-null="true" />
+        </property>
+        
+        <property name="buyLow" type="java.lang.Long">
+            <column name="buy_low" not-null="true" />
+        </property>
+        
+         <property name="buyHigh" type="java.lang.Long">
+            <column name="buy_high" not-null="true" />
+        </property>
+        
+        <property name="ante" type="java.lang.Long">
+            <column name="ante" not-null="true" />
+        </property>
+        
+        <property name="dealerId" type="java.lang.Long">
+            <column name="dealer_id" not-null="true" />
+        </property>
+        
+         <property name="modifiedAt" type="java.lang.String">
+            <column name="modified_at"  not-null="true" />
+        </property>
+        
+        <property name="createdAt" type="java.sql.Timestamp">
+            <column name="created_at"  not-null="true" />
+        </property>
+       
+    </class>
+</hibernate-mapping>

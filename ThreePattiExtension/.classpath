@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/Users/bp/SmartFoxServer_2X/SFS2X/lib/sfs2x.jar"/>
+	<classpathentry kind="lib" path="/Users/bp/SmartFoxServer_2X/SFS2X/lib/sfs2x-core.jar"/>
+	<classpathentry kind="con" path="com.genuitec.runtime.library/com.genuitec.generic_7.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/GameDB"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/UserDB"/>
+	<classpathentry kind="lib" path="/Users/bp/SmartFoxServer_2X/SFS2X/lib/netty-all-4.0.2.final.jar"/>
+	<classpathentry kind="lib" path="/Users/bp/SmartFoxServer_2X/SFS2X/lib/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="/Users/bp/SmartFoxServer_2X/SFS2X/extensions/__lib__/java-json.jar"/>
+	<classpathentry kind="lib" path="/Users/bp/SmartFoxServer_2X/SFS2X/lib/slf4j-api-1.7.5.jar"/>
+	<classpathentry kind="lib" path="/Users/bp/SmartFoxServer_2X/SFS2X/lib/slf4j-log4j12-1.7.5.jar"/>
+	<classpathentry kind="lib" path="/Users/bp/SmartFoxServer_2X/SFS2X/lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="/Users/bp/SmartFoxServer_2X/SFS2X/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

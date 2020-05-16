@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="com.genuitec.runtime.library/com.genuitec.hibernate_3.3">
+		<attributes>
+			<attribute name="owner.project.facets" value="me.hibernate"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.40-bin.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="/UserDB"/>
+	<classpathentry kind="lib" path="/Users/bp/SmartFoxServer_2X/SFS2X/lib/sfs2x.jar"/>
+	<classpathentry kind="lib" path="/Users/bp/SmartFoxServer_2X/SFS2X/lib/sfs2x-core.jar"/>
+	<classpathentry kind="lib" path="/Users/bp/SmartFoxServer_2X/SFS2X/extensions/__lib__/hibernate3.jar"/>
+	<classpathentry kind="lib" path="/Users/bp/SmartFoxServer_2X/SFS2X/extensions/__lib__/hibernate-annotations.jar"/>
+	<classpathentry kind="lib" path="/Users/bp/SmartFoxServer_2X/SFS2X/extensions/__lib__/hibernate-commons-annotations.jar"/>
+	<classpathentry kind="lib" path="/Users/bp/SmartFoxServer_2X/SFS2X/extensions/__lib__/hibernate-validator.jar"/>
+	<classpathentry kind="lib" path="/Users/bp/SmartFoxServer_2X/SFS2X/lib/slf4j-api-1.7.5.jar"/>
+	<classpathentry kind="lib" path="/Users/bp/SmartFoxServer_2X/SFS2X/lib/slf4j-log4j12-1.7.5.jar"/>
+	<classpathentry kind="lib" path="/Users/bp/SmartFoxServer_2X/SFS2X/lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="var" path="JUNIT_HOME"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
